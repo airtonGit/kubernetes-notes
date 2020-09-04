@@ -4,4 +4,4 @@
 #Ferramentas de Log
 
 
-[⎈ Multi pod and container log tailing for Kubernetes https://github.com/wercker/stern](https://github.com/wercker/stern)
+⎈ Multi pod and container log tailing for Kubernetes [https://github.com/wercker/stern](https://github.com/wercker/stern)

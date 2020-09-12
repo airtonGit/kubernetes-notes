@@ -1,4 +1,4 @@
-## Kubernetes K8s dicas rápidas
+## Kubernetes K8s dicas rapidas
 Consulta rápida para o dia que o Google não funcionar :D
 
 **Kubernetes vs Docker**
@@ -35,3 +35,12 @@ Consulta rápida para o dia que o Google não funcionar :D
 **Expor Cluster para Internet**
 
   * Configurar Service com NodePort https://kubernetes.io/docs/concepts/services-networking/service/#nodeport
+  
+## Ports
+
++ Port exposes the Kubernetes service on the specified port within the cluster. Other pods within the cluster can communicate with this server on the specified port.
+
++ TargetPort is the port on which the service will send requests to, that your pod will be listening on. Your application in the container will need to be listening on this port also.
+
++ NodePort exposes a service externally to the cluster by means of the target nodes IP address and the NodePort. NodePort is the default setting if the port field is not specified.
+

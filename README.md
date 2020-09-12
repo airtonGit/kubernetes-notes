@@ -1,4 +1,4 @@
-## Kubernetes K8s dicas e manhas
+## Kubernetes K8s dicas rápidas
 Consulta rápida para o dia que o Google não funcionar :D
 
 **Kubernetes vs Docker**
